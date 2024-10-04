@@ -1,0 +1,23 @@
+.header {
+  height: 75.35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__left-side,
+.header__right-side {
+  height: 100%;
+  display: inline-block;
+}
+
+.header__logo {
+  max-height: 100%;
+  box-sizing: border-box;
+  padding: 10px 0 10px;
+}
+
+.header__btn {
+  background-color: transparent;
+  border: none;
+}

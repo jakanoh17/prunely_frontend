@@ -1,0 +1,12 @@
+.control-panel {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-around;
+}
+
+.control-panel__btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}

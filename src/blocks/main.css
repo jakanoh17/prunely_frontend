@@ -1,0 +1,39 @@
+.main {
+  width: calc(100vw * 2 / 3);
+  margin: 0 auto;
+  font-family: "Quicksand", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: var(--secondary-color);
+}
+
+.main__title {
+  margin: 0;
+  font-size: 30px;
+  line-height: 1.1;
+}
+
+.main__close-btn {
+  background-image: url("../assets/close-btn.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  padding: 0;
+  margin: auto 0;
+}
+
+.main__time-tracker {
+  background-color: #18323d;
+  color: #fff;
+}
