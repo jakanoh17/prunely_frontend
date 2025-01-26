@@ -1,0 +1,122 @@
+.reports {
+  max-width: 100vw;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.reports__side-panel {
+  width: 15%;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.reports__container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-template-rows: repeat(3, max(15%)) 1fr;
+  grid-template-areas:
+    "widget1 graph graph"
+    "widget2 graph graph"
+    "widget3 graph graph"
+    "sessions sessions intervals";
+  gap: 20px;
+}
+
+.reports__widget,
+.reports__graph,
+.reports__sub-section {
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  border: 3px solid #6474d9;
+  box-shadow: 0px 0px 5px #000000c5;
+}
+
+.reports__widget {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.reports__widget-top {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reports__widget_type_hrs-studied {
+  grid-area: widget1;
+}
+
+.reports__widget_type_dys-accessed {
+  grid-area: widget2;
+}
+
+.reports__widget_type_streak {
+  grid-area: widget3;
+}
+
+.reports__graph {
+  grid-area: graph;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.reports__sub-title_element_main-widget{
+font-size: 30px;
+}
+
+.reports__sub-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reports__sub-section_type_sessions {
+  grid-area: sessions;
+}
+
+.reports__sub-section_type_intervals {
+  grid-area: intervals;
+}
+
+.reports__sessions-list {
+  width: 100%;
+  overflow-y: scroll;
+  max-height: 350px;
+  margin: 0 10px 10px 0;
+}
+
+.reports__widget-caption,
+.reports__widget-stat {
+  font-weight: 400;
+  margin: 0;
+}
+
+.reports__widget-caption {
+  font-size: 1.5em;
+}
+
+.reports__widget-stat {
+  font-size: 25px;
+}
+
+.reports__download-btn {
+  border: 3px solid var(--dark-theme-color);
+  border-radius: 5px;
+  color: #000;
+  background-color: var(--light-grey);
+  font-weight: bold;
+  margin-left: auto;
+}

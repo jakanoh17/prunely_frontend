@@ -4,5 +4,12 @@
 @import url("./blocks/page.css");
 @import url("./blocks/header.css");
 @import url("./blocks/main.css");
-@import url("./blocks/stopwatch.css");
+@import url("./blocks/timer.css");
+@import url("./blocks/reports.css");
+@import url("./blocks/lap-btn.css");
 @import url("./blocks/control-btns.css");
+@import url("./blocks/study-session.css");
+@import url("./blocks/stopwatch.css");
+@import url("./blocks/dropdown-label.css");
+@import url("./blocks/auth-pg.css");
+@import url("./blocks/youtube-player.css");

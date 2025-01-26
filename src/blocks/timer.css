@@ -1,0 +1,50 @@
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer__text-label {
+  margin-right: 10px;
+}
+
+.timer__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer__input {
+  background-color: var(--light-grey);
+  border: 3px inset var(--light-theme-color);
+  border-radius: 6px;
+  color: #000;
+  font-weight: 500;
+  max-width: 15%;
+}
+
+.timer__input::placeholder {
+  color: darkgrey;
+}
+
+.timer__input:focus,
+.timer__subtmit-btn:active {
+  outline: none;
+  border-bottom: 4px solid var(--complement);
+  box-shadow: 0 0 5px #78e7a4;
+}
+
+.timer__span {
+  margin: 0 5px;
+}
+
+.timer__subtmit-btn {
+  margin-left: 10px;
+  background-color: var(--light-grey);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1.5px solid #fff;
+}

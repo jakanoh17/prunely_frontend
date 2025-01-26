@@ -1,0 +1,23 @@
+.lap-btn {
+  background-color: lightgrey;
+  box-shadow: 0 0 5px #000;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 4px;
+  height: 40px;
+  font-weight: bold;
+  align-self: self-end;
+}
+
+.lap-btn_active {
+  background-color: #558c4b;
+  box-shadow: 0 0 5px #fff;
+  cursor: pointer;
+  border-color: #fff;
+  color: var(--light-grey);
+}
+
+.lap-btn_type_timer,
+.lap-btn_type_stopwatch {
+  margin: 0 25px 10px 0;
+}

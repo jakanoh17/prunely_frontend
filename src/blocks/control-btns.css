@@ -1,7 +1,9 @@
 .control-panel {
-  background-color: var(--secondary-color);
+  background-color: var(--light-grey);
   display: flex;
   justify-content: space-around;
+  width: 100%;
+  border-bottom: 4px solid lightgrey;
 }
 
 .control-panel__btn {

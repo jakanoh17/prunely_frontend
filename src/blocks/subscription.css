@@ -1,0 +1,15 @@
+.subscription {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-grey);
+}
+
+.subscription__container {
+  background-color: #fff;
+  padding: 15px 0;
+}
+
+.subscription__title {
+  text-align: center;
+}

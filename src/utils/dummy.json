@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1,
+    "name": "Study session 0",
+    "intervals": [
+      { "label": "type 1", "elapsedTime": 2000 },
+      { "label": "type 2", "elapsedTime": 15000 },
+      { "label": "type 3", "elapsedTime": 23000 }
+    ],
+    "overallTime": 40000,
+    "created": "2024-11-04T14:35:00.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Study session 1",
+    "intervals": [
+      { "label": "type 1", "elapsedTime": 10000 },
+      { "label": "type 2", "elapsedTime": 20000 },
+      { "label": "type 3", "elapsedTime": 5000 }
+    ],
+    "overallTime": 35000,
+    "created": "2024-11-11T14:35:00.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Study session 1.5",
+    "intervals": [
+      { "label": "type 1", "elapsedTime": 8000 },
+      { "label": "type 2", "elapsedTime": 25000 },
+      { "label": "type 3", "elapsedTime": 7000 }
+    ],
+    "overallTime": 40000,
+    "created": "2024-11-11T14:35:00.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Study session 2",
+    "intervals": [
+      { "label": "type 1", "elapsedTime": 12000 },
+      { "label": "type 2", "elapsedTime": 30000 },
+      { "label": "type 3", "elapsedTime": 10000 }
+    ],
+    "overallTime": 52000,
+    "created": "2024-11-12T14:35:00.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Study session 3",
+    "intervals": [
+      { "label": "type 1", "elapsedTime": 15000 },
+      { "label": "type 2", "elapsedTime": 15000 },
+      { "label": "type 3", "elapsedTime": 20000 }
+    ],
+    "overallTime": 50000,
+    "created": "2024-11-13T14:35:00.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Study session 4",
+    "intervals": [
+      { "label": "type 1", "elapsedTime": 5000 },
+      { "label": "type 2", "elapsedTime": 10000 },
+      { "label": "type 3", "elapsedTime": 25000 }
+    ],
+    "overallTime": 40000,
+    "created": "2024-11-13T14:35:00.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Study session 5",
+    "intervals": [
+      { "label": "type 1", "elapsedTime": 18000 },
+      { "label": "type 2", "elapsedTime": 25000 },
+      { "label": "type 3", "elapsedTime": 15000 }
+    ],
+    "overallTime": 58000,
+    "created": "2024-11-13T14:35:00.000Z"
+  },
+  {
+    "id": 8,
+    "name": "Study session 6",
+    "intervals": [
+      { "label": "type 1", "elapsedTime": 11000 },
+      { "label": "type 2", "elapsedTime": 20000 },
+      { "label": "type 3", "elapsedTime": 9000 }
+    ],
+    "overallTime": 40000,
+    "created": "2024-11-13T14:35:00.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Study session 7",
+    "intervals": [
+      { "label": "type 1", "elapsedTime": 10000 },
+      { "label": "type 2", "elapsedTime": 18000 },
+      { "label": "type 3", "elapsedTime": 12000 }
+    ],
+    "overallTime": 40000,
+    "created": "2024-11-14T10:15:00.000Z"
+  },
+  {
+    "id": 10,
+    "name": "Study session 8",
+    "intervals": [
+      { "label": "type 1", "elapsedTime": 30000 },
+      { "label": "type 2", "elapsedTime": 20000 },
+      { "label": "type 3", "elapsedTime": 5000 }
+    ],
+    "overallTime": 55000,
+    "created": "2024-11-15T08:45:00.000Z"
+  },
+  {
+    "id": 11,
+    "name": "Study session 9",
+    "intervals": [
+      { "label": "type 1", "elapsedTime": 10000 },
+      { "label": "type 2", "elapsedTime": 15000 },
+      { "label": "type 3", "elapsedTime": 10000 }
+    ],
+    "overallTime": 35000,
+    "created": "2024-11-15T12:00:00.000Z"
+  },
+  {
+    "id": 12,
+    "name": "Study session 10",
+    "intervals": [
+      { "label": "type 1", "elapsedTime": 20000 },
+      { "label": "type 2", "elapsedTime": 25000 },
+      { "label": "type 3", "elapsedTime": 10000 }
+    ],
+    "overallTime": 55000,
+    "created": "2024-11-16T16:30:00.000Z"
+  },
+  {
+    "id": 13,
+    "name": "Study session 11",
+    "intervals": [
+      { "label": "type 1", "elapsedTime": 9000 },
+      { "label": "type 2", "elapsedTime": 21000 },
+      { "label": "type 3", "elapsedTime": 10000 }
+    ],
+    "overallTime": 40000,
+    "created": "2024-11-17T14:00:00.000Z"
+  }
+]

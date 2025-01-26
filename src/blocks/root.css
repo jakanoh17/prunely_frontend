@@ -1,4 +1,36 @@
 #root {
-  --primary-color: #c1e7f5;
-  --secondary-color: #44849b;
+  --light-theme-color: #caffbf;
+  --light-grey: #fffffc;
+  --dark-theme-color: #8ccf7a;
+  --tag-color-a: #ffd6a5;
+  --tag-color-b: #fdffb6;
+  --tag-color-c: #ffadad;
+  --tag-color-d: #caffbf;
+  --tag-color-e: #9bf6ff;
+  --tag-color-f: #a0c4ff;
+  --tag-color-g: #bdb2ff;
+  --tag-color-h: #ffc6ff;
+  --tag-color-i: #fffffc;
+}
+
+/* Style the scrollbar track (background) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  height: 12px; /* Height for horizontal scrollbar */
+}
+
+/* Style the thumb (scroll indicator) */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+/* Style the scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+/* Hover effect for the thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker shade for hover */
 }

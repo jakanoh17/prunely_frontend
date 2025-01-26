@@ -1,9 +1,4 @@
 .stopwatch {
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.stopwatch__time {
-  display: inline-block;
+  flex-direction: column;
 }

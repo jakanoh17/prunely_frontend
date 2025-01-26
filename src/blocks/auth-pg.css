@@ -1,0 +1,75 @@
+.auth-pg {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-pg__title {
+  margin: 0;
+}
+
+.auth-pg__form {
+  width: 30%;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.auth-pg__input {
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  background-color: #bcbcbc6c;
+  outline: none;
+  margin-top: 5px;
+  padding: 4px;
+}
+
+.auth-pg__span {
+  display: none;
+  color: red;
+  font-size: 16px;
+  margin-left: 5px;
+  margin-top: 3px;
+  font-weight: bold;
+}
+
+.auth-pg__span_visible {
+  display: block;
+}
+
+.auth-pg__submit-btn {
+  background-color: #b9b9b9;
+  cursor: pointer;
+  color: #fff;
+  padding: 4px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.auth-pg__submit-btn_enabled {
+  background-color: #000;
+}
+
+.auth-pg__links-container {
+  padding-top: 10px;
+  width: 30%;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.auth-pg__link {
+  color: #000000;
+  font-weight: bold;
+}
